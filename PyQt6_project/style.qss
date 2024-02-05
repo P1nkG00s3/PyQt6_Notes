@@ -1,0 +1,55 @@
+QWidget
+{
+    font-size: 16px;
+    background-color: #2B2A2A;
+    color: white;
+}
+QPushButton{
+    min-width: 70px;
+    color: black;
+    background-color: white;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+QPushButton:pressed{
+    color: black;
+    background-color: "LightGrey";
+}
+
+QLineEdit:focus{
+    background-color: #787575;
+}
+
+QLabel{
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+}
+QLineEdit{
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #B0AEAE;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    margin: 7px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+QMenuBar{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+QMenu{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
